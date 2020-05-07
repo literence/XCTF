@@ -82,7 +82,28 @@ def base(string:str)->str:
 
 
 
+#### ext3
 
+```bash
+strings f1fc23f5c743425d9e0073887c846d23 | grep flag
+sudo mount f1fc23f5c743425d9e0073887c846d23 /mnt
+cd /mnt
+ls
+cd O7avZhikgKgbF
+ls
+cat flag.txt
+```
+
+
+
+####  stegano
+
+全选，将其复制到一个空白的Word文档，会发现一串ab的字符。将其转成摩斯密码，A转成"."（点），B转成"-"（杠），再解密
+
+```
+flag{1NV151BL3M3554G3}
+flag{1NV151BL3M3554G3}
+```
 
 
 
